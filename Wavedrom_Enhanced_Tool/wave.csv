@@ -1,0 +1,5 @@
+!length,,,,,,end
+clk,p,,,,,
+sig,0,1,"2,data,a","3,eop,b",0,
+valid,0,6,"7,sof,c",x,,
+!edge,a~>b,pulse,,,,
