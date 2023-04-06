@@ -1,5 +1,9 @@
 !length,,,,,,end
 clk,p,,,,,
-sig,0,1,"2,data,a","3,eop,b",0,
-valid,0,6,"7,sof,c",x,,
+sig,0,1,2,3,0,
+!node,,,a,b,,
+!data,,,data,eop,,
+valid,0,6,7,x,,
+!node,,,c,,,
+!data,,,sof,,,
 !edge,a~>b,pulse,,,,
